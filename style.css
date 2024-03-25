@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    margin-left: 2em;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+@media (-webkit-device-pixel-ratio: 1) {
+    p {
+      color: red;
+    }
+}
+  
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) {
+    p {
+        background: yellow;
+    }
+}
+
+
+
+/* @media (max-resolution: 165dpi) {
+    p {
+      color: red;
+    }
+}
+  
+@media (min-resolution: 260dpi) {
+    p {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-resolution: 460dpi) {
+    p {
+        background: yellow;
+    }
+} */
